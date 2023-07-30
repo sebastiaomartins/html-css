@@ -1,0 +1,38 @@
+@charset "UFT-8";
+
+/* Configurações globais */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   /* height: 100%; */
+}
+
+/* Configuração dos paragrafos */
+p{
+    text-align: justify;
+}
+
+/* Configuração do body */
+body{
+    background-image: linear-gradient(to right,#DEF0EE,#6CC5CC);
+}
+
+/* Configuração do código principal*/
+main {
+    background-color: white;    /* cor de fundo */
+    border-radius: 10px;          /* bordas */
+    width: 600px;                 /* largura */
+    padding: 10px;                /* preenchimento */
+    margin: auto;                 /* centralizar */
+    box-shadow: 5px 5px 5px #4c808052;  
+}
+
+/* Configurações dos niveis de títulos */
+h1{
+    color: #D1645D;
+    text-align: center;
+    text-shadow: 1px 1px 2px #813e39a8 ;
+}
+
+h2{
+    color: #025959;
+}
