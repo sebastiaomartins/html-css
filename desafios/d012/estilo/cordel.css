@@ -1,0 +1,71 @@
+@charset "UFT-8";
+
+/* Configurações globais */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Configuração do HTML E DO BODY */
+html, body{
+    background-color: darkgray;
+    min-height: 100vh; /*Tamanh minímo do site */
+}
+
+/* Configuração do cabeçalho */
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;  /* Todas as letras maiúculas. A primeira letra de cada palavra e maior*/
+}
+
+header >p{
+    padding-bottom: 50px;
+}
+
+/* Configuração das âncoras ou links */
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Configuração das SECTIONS */
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: lavender;
+    color:red
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgb(200, 221, 221);
+}
+
+/* Configuraçao do rodápe */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
