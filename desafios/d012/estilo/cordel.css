@@ -6,10 +6,23 @@
     padding: 0px;
 }
 
+/* Configurações de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+/* Configurações das variáveis*/
+:root{
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;  /* fonte normal */
+    --fonte2:font-family: 'Passion One', cursive; /* Titulos */
+    --fonte3:font-family: 'Sriracha', cursive; /* Conteudo */
+}
+
 /* Configuração do HTML E DO BODY */
 html, body{
     background-color: darkgray;
     min-height: 100vh; /*Tamanh minímo do site */
+    
 }
 
 /* Configuração do cabeçalho */
