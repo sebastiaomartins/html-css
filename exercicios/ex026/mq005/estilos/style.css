@@ -1,0 +1,71 @@
+@charset "UFT-8";
+
+/* Estilo Mobile First */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color:  rgba(0, 110, 255, 0.336);
+    
+}
+
+header{
+    background-color: rgba(0, 110, 255, 0.336);
+    
+}
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+menu{
+    display: block;
+}
+
+menu > ul{
+    list-style-type: none; /* Tira as bolinhas do menu */
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(110, 164, 185, 0.425);
+    
+}
+
+menu >  ul > li > a:hover{
+    background-color:  rgba(19, 55, 70, 0.192);
+
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2{
+    padding-bottom: 20px;
+}
+
+article > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+
+    
